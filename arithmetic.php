@@ -19,12 +19,17 @@ function divide($a, $b)
 {
     return $a / $b;
 }
+function modulus($a, $b)
+{
+    return $a % $b;
+}
 
-$a = 4;
-$b = 2;
+$a = 6;
+$b = 3;
 
 // Add code to test your functions here
 echo add($a, $b) . PHP_EOL;
 echo subtract($a, $b) . PHP_EOL;
 echo multiply($a, $b) . PHP_EOL;
 echo divide($a, $b) . PHP_EOL;
+echo modulus($a, $b) . PHP_EOL;
