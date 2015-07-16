@@ -1,5 +1,4 @@
 <?php
-// $string1,$string2,$array1,$array2,$bool1,$bool2,$num1,$num2,$num3,$num4,$null
 // TODO: Create your inspect() function here
 function inspect($a){
 	if(is_array($a)){
@@ -27,7 +26,6 @@ function inspect($a){
 	}else if(is_float($a)){
 		return "The float is {$a}\n";
 	}
-
 }
 // Do not mofify these variables!
 $string1 = "I'm a little teapot";
@@ -45,27 +43,27 @@ $null = NULL;
 // TODO: After each echo statement, use inspect() to output the variable's type and its value
 
 echo 'Inspecting $num1:' . PHP_EOL;
-echo inspect($a = $num1);
+echo inspect($num1) . PHP_EOL;
 echo 'Inspecting $num2:' . PHP_EOL;
-echo inspect($a = $num2);
+echo inspect($num2) . PHP_EOL;
 echo 'Inspecting $num3:' . PHP_EOL;
-echo inspect($a = $num3);
+echo inspect($num3) . PHP_EOL;
 echo 'Inspecting $num4:' . PHP_EOL;
-echo inspect($a = $num4);
+echo inspect($num4) . PHP_EOL;
 echo 'Inspecting $null:' . PHP_EOL;
-echo inspect($a = $null);
+echo inspect($null) . PHP_EOL;
 echo 'Inspecting $bool1' . PHP_EOL;
-echo inspect($a = $bool1);
+echo inspect($bool1) . PHP_EOL;
 echo 'Inspecting $bool2' . PHP_EOL;
-echo inspect($a = $bool2);
+echo inspect($bool2) . PHP_EOL;
 echo 'Inspecting $string1' . PHP_EOL;
-echo inspect($a = $string1);
+echo inspect($string1) . PHP_EOL;
 echo 'Inspecting $string2' . PHP_EOL;
-echo inspect($a = $string2);
+echo inspect($string2) . PHP_EOL;
 echo 'Inspecting $array1' . PHP_EOL;
-echo inspect($a = $array1);
+echo inspect($array1) . PHP_EOL;
 echo 'Inspecting $array2' . PHP_EOL;
-echo inspect($a = $array2);
+echo inspect($array2) . PHP_EOL;
 
 
 
