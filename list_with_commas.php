@@ -18,7 +18,7 @@ $physicistsString = 'Gordon Freeman, Samantha Carter, Sheldon Cooper, Quinn Mall
 $physicistsArray = explode(', ', $physicistsString);
 
 // Humanize that list
-$famousFakePhysicists = humanizedList($physicistsArray);
+$famousFakePhysicists = humanizedList($physicistsArray,5);
 
 // Output sentence
 echo "Some of the most famous fictional theoretical physicists are {$famousFakePhysicists}.\n";

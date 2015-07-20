@@ -1,0 +1,8 @@
+
+10:15:10 INFO:This is an info message.
+
+10:15:10 ERROR:This is an error message.
+
+2015-07-20 10:49:58 [INFO] This is an info message.
+
+2015-07-20 10:49:58 [ERROR] This is an error message.
